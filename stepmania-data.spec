@@ -12,6 +12,7 @@ License:	MIT
 Url:		http://www.stepmania.com/wiki/Downloads
 Group:		Games/Arcade
 Source0:	%{distname}-%{version}.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildArch:  	noarch
 
