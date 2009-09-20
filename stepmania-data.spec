@@ -2,7 +2,7 @@
 %define distname %{gamename}-data
 %define	name	stepmania-data
 %define	version	3.9
-%define	release	%mkrel 6
+%define	release	%mkrel 7
 
 Summary:	A rythm game : data files
 Name:		%{name}
