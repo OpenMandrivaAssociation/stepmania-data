@@ -47,3 +47,39 @@ rm -rf $RPM_BUILD_ROOT
 %{_gamesdatadir}/%{gamename}/Themes
 %{_gamesdatadir}/%{gamename}/Visualizations
 
+
+
+%changelog
+* Sun Sep 20 2009 Thierry Vignaud <tvignaud@mandriva.com> 3.9-7mdv2010.0
++ Revision: 445235
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.9-6mdv2009.0
++ Revision: 261176
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.9-5mdv2009.0
++ Revision: 253546
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 3.9-3mdv2008.1
++ Revision: 127992
+- kill re-definition of %%buildroot on Pixel's request
+
+
+* Sun May 14 2006 Olivier Blin <blino@mandriva.com> 3.9-3mdk
+- lowercase package name
+- mkrel please
+- MIT License
+- remove world-writable directories and files
+- install in gamesdatadir
+
+* Wed Apr 19 2006 Nicolas Chipaux <chipaux@mandriva.com> 3.9-2mdk
+- no mkrel please
+
+* Wed Apr 12 2006 Nicolas Chipaux <chipaux@mandriva.com> 3.9-1mdk
+- first for mandriva
+
